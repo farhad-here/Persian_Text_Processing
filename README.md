@@ -20,3 +20,10 @@ then replace these two file in the spell folder:
 # 🎥preview
 
 ![3Capture](https://github.com/user-attachments/assets/c7e53bb6-c552-4e4d-914a-6eba692f4b1d)
+
+# 📳technology
+- python
+- nltk
+- parsivar
+- bidi
+- arabic_reshaper
