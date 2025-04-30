@@ -1,5 +1,45 @@
-# 📓This is my persian text processing for my university
-# 📘Manual
+# 📝 Persian Text Processing with Parsivar
+
+This project demonstrates how to process Persian (Farsi) text using the [Parsivar](https://github.com/ICTRC/Parsivar) NLP library. It includes text normalization, tokenization, stemming, and spell checking, with additional tools to handle proper display of Persian characters.
+
+---
+
+## 🔍 Features
+
+- ✅ **Normalization** – Cleans and standardizes Persian text.
+- ✅ **Tokenization** – Splits text into sentences and words.
+- ✅ **Stemming** – Converts words to their root forms.
+- ✅ **Spell Checking** – Detects and corrects misspellings in Persian.
+- ✅ **Display Support** – Uses `arabic_reshaper` and `python-bidi` to fix RTL display issues.
+
+---
+
+## 🧰 Libraries Used
+
+- [`parsivar`](https://github.com/ICTRC/Parsivar) – NLP tools for Persian.
+- `arabic_reshaper` – For reshaping characters to correct forms.
+- `python-bidi` – Ensures proper display of RTL scripts like Persian.
+
+---
+
+## 📌 How It Works
+
+1. Read Persian text from a `.txt` file.
+2. Normalize the text using Parsivar.
+3. Tokenize the normalized text into words and sentences.
+4. Apply stemming to get root forms of words.
+5. Use spell correction on custom input.
+6. Display reshaped output for better readability in terminals.
+
+---
+
+## 🚀 Usage
+
+### Install dependencies:
+
+```bash
+pip install parsivar arabic_reshaper python-bidi
+```
 
 ```
 pip install -r requirements.txt
